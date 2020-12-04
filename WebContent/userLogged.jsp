@@ -26,19 +26,19 @@
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">USER</a>
+				<a class="navbar-brand" style="color:white" href="#">USER</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
-				<a class="navbar-brand" href="/login">QUESTION GENERATION</a>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="HomePage.jsp"><span
-							class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+				<a class="navbar-brand" style="color:white" >QUESTION GENERATION</a>
+				<ul class="nav navbar-nav navbar-right" >
+					<li><a href="LoginPage.jsp" style="color:white">
+					<span class="glyphicon glyphicon-log-out" ></span> Logout</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div class="container1 cont container-fluid">
+	<div class="container1 container2 container-fluid">
 		<div class="row">
 			<div class="column3">
 				<a><button class="submit submit2"
