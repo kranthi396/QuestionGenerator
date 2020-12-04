@@ -12,9 +12,12 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/usercss.css">
+<link rel="icon" href="Login/images">
 </head>
 
+
 <body>
+
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,12 +31,13 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<a class="navbar-brand" href="/login">QUESTION GENERATION</a>
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="LoginPage.jsp"><span
+					<li><a href="HomePage.jsp"><span
 							class="glyphicon glyphicon-log-out"></span> Logout</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+
 	<div class="container1 cont container-fluid">
 		<div class="row">
 			<div class="column3">
@@ -124,30 +128,32 @@
 			</div>
 		</form>
 	</div>
+
 </body>
 <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-    var modal2 = document.getElementById('id02');
-    var modal3 = document.getElementById('id03');
+	// Get the modal
+	var modal = document.getElementById('id01');
+	var modal2 = document.getElementById('id02');
+	var modal3 = document.getElementById('id03');
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-    window.onclick = function (event) {
-        if (event.target == modal2) {
-            modal2.style.display = "none";
-        }
-    }
-    window.onclick = function (event) {
-        if (event.target == modal3) {
-            modal3.style.display = "none";
-        }
-    }
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+	window.onclick = function(event) {
+		if (event.target == modal2) {
+			modal2.style.display = "none";
+		}
+	}
+	window.onclick = function(event) {
+		if (event.target == modal3) {
+			modal3.style.display = "none";
+		}
+	}
 </script>
 </body>
+
 
 </html>
